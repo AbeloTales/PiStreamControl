@@ -1,0 +1,16 @@
+[Unit]
+Description=Streaming SRT AbeloTales
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=abelotales
+Group=video
+WorkingDirectory=/home/abelotales
+ExecStart=/bin/bash /home/abelotales/stream_obs.sh
+Restart=always
+RestartSec=10
+StartLimitIntervalSec=0
+
+[Install]
+WantedBy=multi-user.target
