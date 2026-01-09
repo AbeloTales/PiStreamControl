@@ -6,8 +6,8 @@ Wants=network-online.target
 [Service]
 User=abelotales
 Group=video
-WorkingDirectory=/home/abelotales
-ExecStart=/bin/bash /home/abelotales/stream_obs.sh
+WorkingDirectory=/home/abelotales/PiStreamControl
+ExecStart=/bin/bash /home/abelotales/PiStreamControl/scripts/stream_obs.sh
 Restart=always
 RestartSec=10
 StartLimitIntervalSec=0
