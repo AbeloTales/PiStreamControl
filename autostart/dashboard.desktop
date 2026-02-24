@@ -2,5 +2,5 @@
 Type=Application
 Name=RPi Dashboard
 Comment=Control de Stream para Abelotales
-Exec=python3 /home/Abelotales/PiStreamControl/scripts/dashboard.py
-Terminal=false
+Exec=env WAYLAND_DISPLAY=wayland-0 python3 /home/Abelotales/PiStreamControl/scripts/dashboard.py
+X-GNOME-Autostart-enabled=true
