@@ -9,7 +9,7 @@ Group=video
 WorkingDirectory=/home/abelotales/PiStreamControl
 ExecStart=/bin/bash /home/abelotales/PiStreamControl/scripts/stream_obs.sh
 Restart=always
-RestartSec=10
+RestartSec=3
 StartLimitIntervalSec=0
 
 [Install]
