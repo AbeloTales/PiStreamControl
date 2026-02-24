@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=RPi Dashboard
+Comment=Control de Stream para Abelotales
+Exec=python3 /home/Abelotales/PiStreamControl/scripts/dashboard.py
+Terminal=false
